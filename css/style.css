@@ -1,0 +1,57 @@
+.header .nav-link:hover {
+  background: var(--bs-danger) !important;
+  color: white !important;
+}
+
+.hero {
+  background: url(../images/header_bg.jpg) no-repeat center / cover;
+}
+
+.pricing .card,
+.pricing .card .price {
+  transition: 400ms;
+}
+
+.pricing .card:hover {
+  border-color: var(--bs-danger);
+  cursor: pointer;
+}
+
+.pricing .card:hover .price {
+  background-color: var(--bs-danger) !important;
+  color: #fff !important;
+}
+
+
+.products .img-card .view {
+  transition: 400ms;
+}
+
+
+
+.products .img-card .view:hover {
+  opacity: 1 !important;
+}
+
+@media (min-width: 1024px) {
+  .hero .info .title {
+    width: 60% !important;
+  }
+  .hero .info .subtitle {
+    width: 45% !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .line {
+    width: 200px;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .services .block .text {
+    width: 60%;
+    margin-inline: auto;
+  }
+}
